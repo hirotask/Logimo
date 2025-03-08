@@ -10,7 +10,7 @@
         "declaration": true,
         "pretty": true,
         "newLine": "lf",
-        "outDir": "dist/example",
+        "outDir": "dist",
         "removeComments": true
     },
     "exclude": [
