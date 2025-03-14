@@ -1,6 +1,6 @@
-# Logimo Contributing Guide
+# Contributing Guide
 
-Hi! We are really happy that you are interested in contributing to **Logimo**, please make sure to take a moment and read through the following guide:
+Hi! We are really happy that you are interested in contributing to this repository, please make sure to take a moment and read through the following guide:
 
 ## 👨‍💻 Repository Setup
 
@@ -49,22 +49,7 @@ Don't worry too much about styles in general—the maintainers will help you fix
 
 ### Commit Messages
 
-we use [gitmoji](https://gitmoji.dev/) to make commit messages more visually understandable.
-
-Format: `<gitmoji> <subject>`
-
-For example, you can use the following gitmoji:
-
-- `:art:`: Improve structure / format of the code.
-- `:zap:`: Improve performance.
-- `:fire:`: Remove code or files.
-- `:bug:`: Fix a bug.
-- `:memo:`: Add or update documentation.
-- `:white_check_mark:`: Add, update, or pass tests.
-- `:rotating_light:` Fix compiler / linter warnings.
-- `:pencil2:` Fix typos.
-
-You can find more details on usage at [gitmoji.dev](https://gitmoji.dev/).
+We use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages, which allows the changelog to be auto-generated based on the commits.
 
 ## 🙌 Sending Pull Requests
 
@@ -76,22 +61,6 @@ Please make sure the following is done when submitting a pull request:
 2. **Use descriptive titles.**: We recommended to follow this [pull request title style](#pull-request-title)
 3. **Check the base branch.**: All pull requests should be opened against the `develop` branch.
 4. **Check to see if Breaking Changes is included.**: If included, check [here](#breaking-changes).
-
-### Pull Request Title
-
-When submitting a Pull Request, please use the following title format:
-
-```
-Feature/#1111: The title of this pull request
-```
-
-**Prefix**: Use the prefix of the branch you created. Capitalize only the first letter.
-
-**Issue ID**: Include the issue number this PR resolves. If there is no related issue, you can omit this.
-
-**Colon**: Always include a colon (`:`) after the issue ID.
-
-**Title**: Briefly describe the content of this PR. Capitalize only the first letter.
 
 ### Breaking Changes
 
