@@ -13,6 +13,10 @@ Coming soon...
 
 Coming soon...
 
+## Contribution
+
+If you want to contribute this package, please refer to [the contributing guide](./.github/CONTRIBUTING.md).
+
 ## License
 
 Logimo is [MIT licensed](./LICENSE).
